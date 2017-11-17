@@ -1,5 +1,5 @@
 .img-circle {
-    height: 245px;
+    height: 200px;
     width: 320px;
 }
 
@@ -11,4 +11,7 @@ h2 {
     margin-bottom: 25px;
 }
 
+.img-thumbnail {
+    height: 200px;
+}
 
