@@ -9,8 +9,11 @@
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Come fly with me</title>
+    <link rel="icon" type="image/ico" href="images/favicomatic(1)/favicon.ico"/>
+    <title>Come Fly With Me</title>
 </head>
 
 <body>
@@ -35,7 +38,7 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a href="index.html"><div class="navbar-brand">Come fly with me <span class="glyphicon glyphicon-globe"></span></div></a>
+            <a href="index.html"><div class="navbar-brand">Come Fly With Me <span class="glyphicon glyphicon-globe"></span></div></a>
         </div>
 
         <div class="collapse navbar-collapse" id="navbar-collapse-container">
@@ -63,10 +66,28 @@
                     </ul>
                 </li>
                 <li><a href="photogallery.html">Photo Gallery</a></li>
+              <li><div class="input-group hidden-xs hidden-sm visible-md-lg" id="search-for">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </span>
+              </div></li>
+
+                <li class=" visible-xs"><div class="input-group" id="search-fore">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </span>
+                </div></li>
+
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="blogg.html">Blogg</a></li>
+                <li><a href="blogg.html">Blog</a></li>
                 <li class="active"><a href="contact.html">Contact</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
@@ -85,24 +106,27 @@
             <form>
                 <div class="form-group">
                     <label for="firstName">Firstname</label>
-                    <input type="text" class="form-control" id="firstName">
+                    <input type="text" class="form-control" id="firstName" required>
                 </div>
                 <div class="form-group">
                     <label for="lastName">Lastname</label>
-                    <input type="text" class="form-control" id="lastName">
+                    <input type="text" class="form-control" id="lastName" required>
                 </div>
 
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <div class="input-group">
-                        <input type="email" class="form-control" placeholder="email" id="email">
+                    <div class="input-group visible-sm-md-lg hidden-xs">
+                        <input type="email" class="form-control" placeholder="email" required>
                         <span class="input-group-addon">@hotmail.com</span>
+                    </div>
+                    <div class="input-group visible-xs hidden-sm-md-lg">
+                        <input type="email" class="form-control" id="email" placeholder="email" required>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="comments">Comments</label>
-                    <textarea class="form-control" id="comments"></textarea>
+                    <textarea class="form-control" id="comments" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit form</button>
 
@@ -110,7 +134,32 @@
         </div>
     </div>
 
-
 </div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-footer">
+                        <div class="panel-title">Follow Us</div>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <div id="contact-us"><div class="panel-title text-right">Contact Us</div>
+                            <ul class="text-right">
+                                <li>Come fly with me</li>
+                                <li>742 Evergreen Terrace</li>
+                                <li>Springfield</li>
+                                <li>212-512 818 4004</li>
+                            </ul></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>
