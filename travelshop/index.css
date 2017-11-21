@@ -1,14 +1,72 @@
+/*kod nedan kan störa er kod, avsedd bara för index, contact och blogg.*/
 div.col-xs-12{
+
     margin-top: 20px;
 }
+
+div.col-xs-12.col-md-4{
+    margin-top: 40px;
+}
+
+div.col-xs-6.col-xs-offset-3{
+    margin-top: 20px;
+}
+
+/*Kod ovan bara för index,contact och blogg.html*/
+
+/*Kod nedan för sökrutan*/
+
+#search-for{
+    margin: 10px;
+}
+
+div#search-for.input-group.hidden-xs.hidden-sm.visible-md-lg{
+    margin-bottom: -50px;
+}
+
+#search-fore{
+    margin: 10px;
+
+
+}
+
+/*Kod ovan för sökrutan*/
+
+/*Kod nedan för blogg*/
+
+#h1, #h2{
+    margin-bottom: 55px;
+}
+
+/*Kod ovan bara för blogg*/
+
+/*Kod nedan bara för contact*/
+
+#email{
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/*kod ovan bara för contact*/
+
+/*Kod nedanför avsedd för footer*/
+/*Kod nedanför avsedd för footer*/
+/*Kod nedanför avsedd för footer*/
+
+.btn.btn-default{
+    margin-bottom: 20px;
+}
+
 a.fa{
     text-decoration: none;
     color: #0f0f0f;
 }
+
 div.panel-footer{
     height: 125px;
 
 }
+
 ul{
     list-style-type: none;
 }
@@ -16,12 +74,15 @@ ul{
     margin-top: -46px;
 
 }
+
 a.fa{
     font-size:x-large;
 }
+
 a.fa.fa-twitter{
     margin-left: 5px;
 }
+
 a.fa.fa-instagram{
     margin-left: 5px;
 }
