@@ -1,5 +1,5 @@
 .img-circle {
-    height: 245px;
+    height: 200px;
     width: 320px;
 }
 
@@ -11,4 +11,31 @@ h2 {
     margin-bottom: 25px;
 }
 
+.img-thumbnail {
+    height: 200px;
+}
 
+a.fa{
+    text-decoration: none;
+    color: #0f0f0f;
+}
+div.panel-footer{
+    height: 125px;
+
+}
+ul{
+    list-style-type: none;
+}
+#contact-us{
+    margin-top: -46px;
+
+}
+a.fa{
+    font-size:x-large;
+}
+a.fa.fa-twitter{
+    margin-left: 5px;
+}
+a.fa.fa-instagram{
+    margin-left: 5px;
+}
