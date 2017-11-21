@@ -13,11 +13,15 @@ div#search-for.input-group.hidden-xs.hidden-sm.visible-md-lg{
 }
 
 .row {
-    margin-bottom: 25px;
+    margin-bottom: px;
+}
+
+.img-rounded {
+    margin-bottom: 15px;
 }
 
 .text-center {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 a.fa{
