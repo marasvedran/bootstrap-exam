@@ -38,6 +38,15 @@ div#search-for.input-group.hidden-xs.hidden-sm.visible-md-lg{
     margin-bottom: 55px;
 }
 
+/*Kod nedan för contact.html*/
+#h1-contact, #h2-contact{
+    margin-bottom: 55px;
+    margin-top: 40px;
+}
+/*Kod ovan för contact.html*/
+
+
+
 /*Kod ovan bara för blogg*/
 
 /*Kod nedan bara för contact*/
