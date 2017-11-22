@@ -12,17 +12,20 @@ div#search-for.input-group.hidden-xs.hidden-sm.visible-md-lg{
 
 }
 
-.row {
-    margin-bottom: px;
+.col-xs-12.col-md-3{
+    padding-left: 15px;
 }
 
 .img-rounded {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+
 }
 
 .text-center {
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
+
+
 
 a.fa{
     text-decoration: none;
