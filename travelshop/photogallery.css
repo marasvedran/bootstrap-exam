@@ -1,10 +1,31 @@
-.row {
+#search-for{
+    margin: 10px;
+}
+
+div#search-for.input-group.hidden-xs.hidden-sm.visible-md-lg{
+    margin-bottom: -50px;
+}
+
+#search-fore{
+    margin: 10px;
+
+
+}
+
+.col-xs-12.col-md-3{
+    padding-left: 15px;
+}
+
+.img-rounded {
     margin-bottom: 25px;
+
 }
 
 .text-center {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
+
+
 
 a.fa{
     text-decoration: none;

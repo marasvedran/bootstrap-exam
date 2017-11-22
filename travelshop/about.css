@@ -1,19 +1,44 @@
+#search-for{
+    margin: 10px;
+}
+
+div#search-for.input-group.hidden-xs.hidden-sm.visible-md-lg{
+    margin-bottom: -50px;
+}
+
+#search-fore{
+    margin: 10px;
+
+
+}
+
 .img-circle {
     height: 200px;
     width: 320px;
+    margin: 0 auto;
 }
 
 .img-rounded {
     height: 240px;
+    margin: 0 auto;
 }
+
+#wine {
+    height: 200px;
+    margin: 0 auto;
+    border: solid 5px white;
+}
+
+#shark {
+    height: 200px;
+    margin-bottom: 5px;
+}
+
 
 h2 {
     margin-bottom: 25px;
 }
 
-.img-thumbnail {
-    height: 200px;
-}
 
 a.fa{
     text-decoration: none;
